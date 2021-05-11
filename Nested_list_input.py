@@ -7,7 +7,6 @@ for i in range(len(l)):
         t1=l[i].split("[")
         if t1[0]!="":
             t1=l[i].split("]")
-        print(t1)
         j=0
         for j in range(len(t1)):
             if t1[0]=='':
@@ -15,4 +14,4 @@ for i in range(len(l)):
             elif t1[1]=='':
                 t=t1[0]
             l[i]=int(t)
-print(l,"\n",type(l[2]),len(l))
+print(l)
